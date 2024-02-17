@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: cover;
+}
+.wrapper {	
+  margin-top: 150px;
+  margin-bottom: 300px;
+  	width: 100%;
+    height: auto;
+}
+.form-register {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+}
+.form-control {
+	background: rgba(255,255,255,0.5);
+	margin: 10px;
+	color: white;
+	border: none;
+	border-radius: 0px;
+}
+.panel {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    color: white;
+    padding-left: 50px;
+}
+label {
+	display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btn-primary {
+	color: white;
+	background: black;
+	width: 120px;
+	height: 40px;
+	border: none;
+	border-radius: 0px;
+	margin: 20px;
+	margin-top: 10px;
+}
+.legend {
+	background: black;
+	color: white;
+	padding: 15px;
+}
+.btn-move {
+	display: grid;
+	grid-template-columns: 5fr;
+	padding-left: 182px;
+}
+input[type=text], input[type=password] {
+	padding: 10px;
+	display: inline-block;
+}
+.btn-primary:hover {
+  border: 2px solid white;
+}
